@@ -1,0 +1,170 @@
+{
+  "kind": "nexus-studio-project",
+  "schema": 1,
+  "config": {
+    "owner": "NEXUS",
+    "theme": 0,
+    "specialization": 0,
+    "style": 0,
+    "accent": 2047,
+    "secondary": 65535,
+    "bg": 0,
+    "panel": 6339,
+    "text": 65535,
+    "muted": 44373,
+    "wallpaper": 1,
+    "brightness": 128,
+    "timeout": 0,
+    "format24": 1,
+    "blink": 1,
+    "quiet": 0,
+    "privatePreview": 0,
+    "autoReconnect": 1,
+    "eco": 1,
+    "dnd": 0,
+    "seconds": 1,
+    "compA": 0,
+    "compB": 0,
+    "wallMix": 25,
+    "toneHz": 1500,
+    "toneMs": 180,
+    "height": 0,
+    "weight10": 0,
+    "strideMm": 0,
+    "sensitivity": 1,
+    "goal": 8000,
+    "moveMinutes": 60,
+    "moveReminders": 1,
+    "stepsEnabled": 1,
+    "capacity": 320,
+    "travelOffset": 120,
+    "alarms": [
+      {
+        "h": 7,
+        "m": 30,
+        "on": 0
+      },
+      {
+        "h": 8,
+        "m": 0,
+        "on": 0
+      },
+      {
+        "h": 9,
+        "m": 0,
+        "on": 0
+      },
+      {
+        "h": 10,
+        "m": 0,
+        "on": 0
+      },
+      {
+        "h": 11,
+        "m": 0,
+        "on": 0
+      }
+    ],
+    "timer": {
+      "preset": 300
+    },
+    "schema": 1,
+    "osd": {
+      "version": 1,
+      "enabled": 1,
+      "items": [
+        {
+          "x": 49,
+          "y": 88,
+          "size": 1,
+          "on": 1,
+          "color": 0
+        },
+        {
+          "x": 172,
+          "y": 144,
+          "size": 1,
+          "on": 1,
+          "color": 1
+        },
+        {
+          "x": 12,
+          "y": 47,
+          "size": 1,
+          "on": 1,
+          "color": 2
+        },
+        {
+          "x": 132,
+          "y": 12,
+          "size": 1,
+          "on": 1,
+          "color": 0
+        },
+        {
+          "x": 12,
+          "y": 12,
+          "size": 1,
+          "on": 1,
+          "color": 2
+        },
+        {
+          "x": 12,
+          "y": 177,
+          "size": 1,
+          "on": 1,
+          "color": 0
+        },
+        {
+          "x": 132,
+          "y": 177,
+          "size": 1,
+          "on": 0,
+          "color": 1
+        },
+        {
+          "x": 132,
+          "y": 177,
+          "size": 1,
+          "on": 1,
+          "color": 0
+        },
+        {
+          "x": 132,
+          "y": 218,
+          "size": 1,
+          "on": 1,
+          "color": 1
+        },
+        {
+          "x": 12,
+          "y": 218,
+          "size": 1,
+          "on": 1,
+          "color": 2
+        },
+        {
+          "x": 12,
+          "y": 177,
+          "size": 1,
+          "on": 0,
+          "color": 1
+        },
+        {
+          "x": 12,
+          "y": 254,
+          "size": 1,
+          "on": 1,
+          "color": 2
+        },
+        {
+          "x": 180,
+          "y": 68,
+          "size": 1,
+          "on": 0,
+          "color": 2
+        }
+      ]
+    }
+  }
+}
