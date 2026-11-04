@@ -1,0 +1,3 @@
+#pragma once
+#include "Arduino.h"
+class Preferences {public:bool failWrites=false;std::map<std::string,std::vector<uint8_t>> data;bool begin(const char*,bool){return true;} size_t getBytesLength(const char*k){return data[k].size();} size_t getBytes(const char*k,void*out,size_t n){auto &v=data[k];n=std::min(n,v.size());memcpy(out,v.data(),n);return n;} size_t putBytes(const char*k,const void*p,size_t n){if(failWrites)return 0;data[k]=std::vector<uint8_t>((const uint8_t*)p,(const uint8_t*)p+n);return n;} bool getBool(const char*k,bool d){return data[k].empty()?d:data[k][0];} size_t putBool(const char*k,bool v){if(failWrites)return 0;data[k]={uint8_t(v)};return 1;} };

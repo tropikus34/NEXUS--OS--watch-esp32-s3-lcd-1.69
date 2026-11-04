@@ -1,0 +1,2 @@
+#include "../NEXUS_OS_6_9_3/NEXUS_OS_6_9_3.ino"
+int main(){setup();timeValid=true;hh=12;mm=48;ss=37;wday=4;day=29;mon=10;batPercent=85;chronosConnected=true;snprintf(ownerName,sizeof(ownerName),"ED");activityAddSteps(6284,millis());alarmH=7;alarmM=30;alarmEnabled=true;syncAlarmSlot();for(int t=0;t<7;++t)for(int v=0;v<8;++v){themeIndex=t;faceVariant=v;applyTheme();showScreen(SC_CLOCK);char path[100];snprintf(path,sizeof(path),"/tmp/nexus56_%d_%d.ppm",t,v);gfx->save(path);}}

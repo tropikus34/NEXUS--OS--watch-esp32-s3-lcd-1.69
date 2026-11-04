@@ -1,0 +1,22 @@
+PASS: calendar, editing, battery curve, timer persistence/expiry/wrap, quiet mode, queue overflow, unread eviction, clear, button holds, five alarms, shared timer, profile persistence, BLE bond tracking, advertising recovery, theme upload, CRC rollback, seven looks/tools, migration, notification wake/quiet/DND/edit/alert priority, preview dismiss, LCD sleep and ECO clocks
+PASS: stationary/isolated/rapid motion rejected; walking/orientation, distance/calories, midnight/rewind, checkpoint CRC, profile, IMU registers/decoding/mutex/overflow/failure, reminders and UI navigation
+PASS: reversible page loop, complete category coverage, short edits/save/return, category wrap/back, name/profile/date returns, notification and alert preservation, seven-theme invariance
+PASS AUDIT: 10 sleep/resume contexts, overlay input cancellation, alarm/timer pending clicks, debounce boundary/rollover, exact 700ms hold, both custom colors/layouts, AM/PM on seven faces, NVS retry
+PASS: configured 320mAh capacity, NVS roundtrip/corruption/write failure, USB validation, honest unknown charge/full state, no charger GPIO/I2C operations, battery UI
+PASS STUDIO PROTOCOL: snapshot, validated system/owner/5 alarms/timer/date/health/full palette/face/sound, persistence, paired actions, wallpaper readback and write failure
+PASS OSD: atomic layout write/readback, NVS reload/failure/corruption, validation/CRC, all 13 item raster bounds and sizes, dynamic refresh gating
+PASS DISPLAY/STORAGE: off-screen composition, one complete presentation/no idle flush, physical LCD sleep, image rendering/mixing in native and OSD, allocation fallback, no autoformat, missing partition/unformatted/no-space errors
+PASS FACES: custom palette/visibility/radius persistence; 49 combinations, variant persistence/range/write failure/watch editor; bold masks, seven layouts, time changes/12h/24h, hidden fields, unset time, real step and battery meters
+PASS POWER: dim at 3 seconds, activity/alert/timeout restore, BLE requests/rate limiting, unsupported-PM fallback; awake/off accounting, wraparound, LCD sleep outside ECO and wake, readable telemetry
+PASS PM: supported/unsupported runtime configure, USB inhibits sleep, active mode disables sleep, failure falls back to manual clock
+PASS PM: supported/unsupported runtime configure, USB inhibits sleep, active mode disables sleep, failure falls back to manual clock
+PASS RENDER: battery + UI event composed once; notification overlay survives battery refresh
+PASS ENERGY: preserved capacity, bounded IMU polling, fast/slow advertising, pairing, no repeated restarts, connected link preserved
+PASS APP↔FIRMWARE: 11 pages, read/apply/readback all groups, OSD drag/snap/undo/size/bounds/capability guard, busy timer, config+image project restore, byte-exact background backup/CRC, invalid import, scoped draft preservation, USB disconnect/reconnect
+PASS STORAGE APP --unformatted: actionable diagnosis, preflight before mutations, draft/photo retained, explicit preparation and verified upload
+PASS STORAGE APP --no-partition: actionable diagnosis, preflight before mutations, draft/photo retained, explicit preparation and verified upload
+PASS STORAGE APP --low-space: actionable diagnosis, preflight before mutations, draft/photo retained, explicit preparation and verified upload
+All host checks passed. Arduino build, real browser and physical hardware still require verification.
+
+Additional Studio diagnostics regression:
+PASS APP↔FIRMWARE: 11 pages, read/apply/readback all groups, OSD drag/snap/undo/size/bounds/capability guard, busy timer, config+image project restore, byte-exact background backup/CRC, invalid import, scoped draft preservation, USB disconnect/reconnect

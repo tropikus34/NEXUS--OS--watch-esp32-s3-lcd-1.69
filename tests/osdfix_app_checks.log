@@ -1,0 +1,1 @@
+PASS APP↔FIRMWARE: 11 pages, read/apply/readback all groups, OSD drag/snap/undo/size/bounds/capability guard, busy timer, config+image project restore, byte-exact background backup/CRC, invalid import, scoped draft preservation, USB disconnect/reconnect
